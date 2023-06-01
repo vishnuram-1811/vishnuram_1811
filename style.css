@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #060606;
+  color: white;
+}
+
+h1,
+h2 {
+  color: gold;
+  display: flex;
+  justify-content: center;
+  font-family: "Abril Fatface", cursive;
+}
+
+p,
+h3 {
+  font-family: "Space Mono", monospace;
+  line-height: 5vh;
+  font-size: 1.2rem;
+}
+
+.span-1 {
+  color: red;
+  font-size: 1.3rem;
+}
+
+span {
+  font-size: 15px;
+}
+
+.logo {
+  display: flex;
+  position: relative;
+  left: 30px;
+  top: 45px;
+}
+
+.info {
+  padding-top: 100px;
+}
+
+.skill-heading {
+  padding-top: 50px;
+}
+
+.skills {
+  display: grid;
+  padding-top: 50px;
+  grid-template-columns: 0.5fr 2fr;
+  grid-template-rows: 2fr;
+}
+
+#skills {
+  background-image: url("images/architecture.jpg");
+  width: 100%;
+}
+
+.contact-heading {
+  padding-top: 50px;
+}
+
+.contact-me {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.btn {
+  font-family: "Space Mono", monospace;
+  line-height: 5vh;
+  font-size: 1.2rem;
+}
+
+.button {
+  padding-bottom: 30px;
+}
+
+.footer {
+  color: white;
+  padding-top: 100px;
+}
+
+.nav-item {
+  font-family: "Space Mono", monospace;
+  padding: 8px;
+}
